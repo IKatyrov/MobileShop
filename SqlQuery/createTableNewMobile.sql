@@ -1,0 +1,15 @@
+﻿create table newMobile(
+mid int not null identity(1,1) primary key,
+cname varchar(250) not null,
+mname varchar(250) not null,
+ram varchar(250) not null,
+internal varchar(250) not null,
+expandable varchar(250) not null,
+display varchar(250) not null,
+rear varchar(250) not null,
+front varchar(250) not null,
+finger varchar(250) not null,
+sim varchar(250) not null,
+network varchar(250) not null,
+price bigint not null,
+);
